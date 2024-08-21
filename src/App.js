@@ -11,6 +11,7 @@ function App() {
       <Item name="pav bhaji" price={80} id={1}/>
       <Item name="barger" price={35} id={2}/>
       <Item name="bhaji" price={30} id={3}/>
+      <Item name="intaliyan" price={120} id={4}/>
       <Cart />
     </>
   );
