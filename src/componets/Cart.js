@@ -9,17 +9,10 @@ function Cart() {
 
       <div>
     <p>cart</p>
-        
-            {cart && cart.items.map((item , index ,arrayRef) => {
-              
-              return console.log(arrayRef.length);
-              <li key={index}>
-              
-            {item.name} - ${item.price} {item.id}
+            {cart && cart.items.map((item, index) => {
+            return  <li key={index}>
+            {item.name} - ${item.price} 
           </li> }) }
-
-          
-        
         <h3>total bill:{total}</h3>
 
     </div>
